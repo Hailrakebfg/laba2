@@ -1,3 +1,4 @@
+function showRAP(){
 var audio = new Audio('./RAP.mp3');
 audio.volume = 0.6;
 
@@ -6,8 +7,7 @@ audio.addEventListener('ended', function() {
     this.play();
 }, false);
 
-function showRAP(){
-	alert("это уже другое...");
+    alert("FLEX");
     document.body.style.background = "url('RAP.gif') repeat";
     audio.play();
 }
